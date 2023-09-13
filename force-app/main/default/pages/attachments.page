@@ -1,0 +1,36 @@
+<apex:page standardController="Applicant__c" >
+    <head>
+        <script>
+       function removeAttachment(var Id,var value){
+           
+       }
+           
+        </script>
+    </head>
+    <body>
+        
+        <apex:form id="formId">
+        <div class="container">
+            
+            <h1>Secured Document Upload.a.</h1>
+            
+            <div class="container2">
+                <apex:outputPanel >
+                    <apex:inputFile value="1" filename="a" id="file" /> 
+                    <apex:commandLink onclick="removeAttachment(this.id,this.value)">X</apex:commandLink>   <br />
+                    
+                </apex:outputPanel>
+                
+                <apex:outputPanel >
+                         <apex:inputFile value="1" filename="b" id="file2" />  
+                   		 <apex:commandLink onclick="removeAttachment">X</apex:commandLink>  
+                    
+                </apex:outputPanel>
+         
+            
+            	</div>
+            </div>
+        </apex:form>
+    </body>
+    
+</apex:page>

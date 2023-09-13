@@ -1,0 +1,16 @@
+.container{
+    border: 1px solid lightgray;
+    padding: 5px;
+    width: fit-content;
+    border-radius: 8px;
+    margin-top: auto;
+    margin-right: auto;
+    transition: all 0.5s ease;
+}
+.Completed{
+    background-color: rgb(71, 71, 246);
+}
+
+.UpComing{
+    background-color: rgb(209, 87, 87);
+}

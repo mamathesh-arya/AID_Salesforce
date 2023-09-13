@@ -1,0 +1,17 @@
+.THIS {
+  margin: 40px;
+}
+.THIS .btn {
+  background-color: rgb(27, 111, 228);
+  color: white;
+  border: 1px;
+  border-radius: 2px;
+}
+
+.THIS .sp {
+  color: red;
+}
+
+.THIS .slds-p-horizontal_small {
+  color: blue;
+}

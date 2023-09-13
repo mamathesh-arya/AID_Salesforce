@@ -1,0 +1,29 @@
+<aura:component controller="TestingAuraCtrl" access="global">
+  <aura:attribute name="firstname" type="String" />
+    <aura:attribute name="secondname" type="String" />
+    <aura:attribute name="Phone" type='Integer' />
+    <aura:attribute name="type" type="List"/>
+    <aura:attribute name="selectedInd" type="String"/>
+
+  <div class="slds-box">
+    <lightning:card
+      variant="Narrow"
+      title="Create Account"
+      iconName="utility:advertising">
+      <p class="slds-p-horizontal_small">
+        <h3> Please fill all the Information correctly</h3>
+      </p>
+    </lightning:card>
+      
+      <div class="form-group">
+      	<lightning:input aura:id="fname" label="First name" name="firstname" required="true" value="{!v.firstname}" />
+        <lightning:input aura:id="sname" label="Second name" name="secondname"  required="true" value="{!v.secondname}"/>
+        <lightning:input aura:id="" label="Industry" name="industry" value="{!v.selectedInd}"/>
+       
+          <br></br>
+          <lightning:button variant = "Brand" title = "Submit" label="Submit" onclick="{!c.myAction}"/>
+          
+      </div>
+      
+  </div>
+</aura:component>

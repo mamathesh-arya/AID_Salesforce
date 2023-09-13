@@ -1,0 +1,3 @@
+<aura:component controller="tryApex" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+	ss
+</aura:component>
