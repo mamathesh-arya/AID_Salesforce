@@ -1,3 +1,10 @@
+/**
+ * @description       : 
+ * @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+ * @group             : 
+ * @last modified on  : 09-13-2023
+ * @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+**/
 public class AccountDuplicateMappingHellper {
     
    
@@ -9,7 +16,7 @@ public class AccountDuplicateMappingHellper {
     public static void searchDuplication(List<Account> dupAcc){
         AccountDuplicatioMapper__c accDupRecInMapper = new AccountDuplicatioMapper__c();
         System.debug('searchDuplication called');
-        
+        System.debug('hii Sample');
         SET<String> newStrRec = new SET<String>();
         for(Account acc : dupAcc){
             newStrRec.add(String.valueOf(acc.Name));

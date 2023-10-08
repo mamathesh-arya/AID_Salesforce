@@ -5,9 +5,16 @@
   @last modified on  : 10-08-2023
   @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
 -->
+<!--
+  @description       :
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             :
+  @last modified on  : 10-08-2023
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
 <template>
 
-  <lightning-card title=" one way day bind and one way bind" icon-name="custom:custom12">
+  <lightning-card title=" one way day bind" icon-name="custom:custom12">
   <div class="slds-m-top_medium slds-m-bottom_x-large">
     <h1> <br> My name is {name}</h1>
   </div>
@@ -16,8 +23,8 @@
 <lightning-card title="Two way data bind" icon-name="custom:custom3">
     <div class="slds-box">
         <lightning-input
-        type="texting text"
-        name="testing title"
+        type="text"
+        name="title"
         label=" Your Name Here"
         value={title}
         onkeyup={changeHandler}>
@@ -26,6 +33,12 @@
 
     </div>
     <div class="slds-p-around_medium">
+        <p>My Title is {title}</p>
+    </div>
+<div class="slds-p-around_medium">
+        <p>My Title is {title}</p>
+    </div>
+<div class="slds-p-around_medium">
         <p>My Title is {title}</p>
     </div>
 
