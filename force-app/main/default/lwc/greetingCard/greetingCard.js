@@ -15,5 +15,7 @@ export default class GreetingCard extends LightningElement {
     handleChange(event) {
         this.value = event.detail.value;
     }
-    // Commenting from A1 
+
+    // Commenting from A2 Branch
+
 }
