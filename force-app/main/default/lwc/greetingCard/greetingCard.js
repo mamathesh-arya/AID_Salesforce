@@ -7,6 +7,7 @@ export default class GreetingCard extends LightningElement {
         return [
             { label: 'New', value: 'new' },
             { label: 'In Progress Level-1', value: 'inProgress' },
+            { label: 'In Progress Level-2', value: 'inProgress' },
             { label: 'Finished', value: 'finished' },
         ];
     }
