@@ -11,6 +11,7 @@ export default class GreetingCard extends LightningElement {
         ];
     }
 //comment Added
+// Comment 2 Added
     handleChange(event) {
         this.value = event.detail.value;
     }
